@@ -9,12 +9,14 @@
 
 # Mad Libs (Historias Locas)
 
-adj = input("Adjetivo: ")
-verbo1 = input("Verbo: ")
-verbo2 = input("verbo: ")
+print("Deberas insertar ciertas palabras, para llegar a la meta. :)")
+
+adj = input("dame un Adjetivo: ")
+verbo1 = input("un Verbo: ")
+verbo2 = input("dame otrooo verbo: ")
 sustantivo_plural = input("Sustantivo (plural): ")
 
 
-madlib = f"! Programar es tan {adj}! Siempre me emociona proque me encanta {verbo1} problemas. Aprende a {verbo2} con freecodecamp y alcanza tus {sustantivo_plural}"
+madlib = f"! Programar es tan {adj}! Siempre me emociona porque me encanta {verbo1} problemas. Aprende a {verbo2} con freecodecamp y alcanza tus {sustantivo_plural}"
 
 print(madlib)
